@@ -61,11 +61,11 @@ nota de 1;
 Seu projeto será avaliado de acordo com os seguintes critérios. 
 
 1. Sua aplicação atende funcionalmente o que foi pedido
-2. Você documentou a maneira de configurar o ambiente e rodar sua aplicação na maquina do avaliador
-3. Você seguiu as instruções enviadas
-4. Voce segue as boas práticas de programação e entrega para o Cliente
-5. O código escrito é facil de entender e manter
-6. Você se preocupa com o uso do aplicativo pelo Usuário
-7. Você fez testes para o que foi pedido
+2. Cobertura de testes
+3. Você documentou a maneira de configurar o ambiente e rodar sua aplicação na maquina do avaliador
+4. Você seguiu as instruções enviadas
+5. Voce segue as boas práticas de programação e entrega para o Cliente
+6. O código escrito é facil de entender e manter
+7. Você se preocupa com o uso do aplicativo pelo Usuário
 
 Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto, preocupação com o objetivo da aplicação e do seu uso pelo usuário, suporte e manutenção do código por outros desenvolvdores
