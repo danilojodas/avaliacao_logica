@@ -1,20 +1,21 @@
+
 # Desafio de programação
-A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
+A ideia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador, de vários níveis.
 
 Este desafio deve ser feito por você em sua casa. Gaste o tempo que você quiser, porém normalmente você não deve precisar de mais do que algumas horas.
 
 ## Instruções de entrega do desafio
 1. Primeiro, faça um fork deste projeto para sua conta no Github (crie uma se você não possuir).
-2. Em seguida, implemente os exercicios tal qual descrito abaixo, em seu próprio fork, sem usar interface grafica.
+2. Em seguida, implemente os exercícios tal qual descrito abaixo, em seu próprio fork, sem usar interface gráfica.
 3. Crie as instruções de instalação e execução do aplicativo em seu readme.md
-4. Por fim, envie o link do seu repositorio para avaliarmos seu código.
+4. Por fim, envie o link do seu repositório para avaliarmos seu código.
 
-## Exercicios do projeto
+## Exercícios do projeto
 
 ### Calculadora
 Implemente um programa para calcular a soma, subtração, divisão e multiplicação de 2 números e exiba para o usuário os resultados.
 
-### Palindromo (Usando apenas IF, ELSE, WHILE)
+### Palíndromo (Usando apenas IF, ELSE, WHILE)
 Dizemos que um número natural n é palíndromo (3) se o 1º algarismo de n é igual ao seu último algarismo, o 2º algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente.
 
 Exemplos:
@@ -23,7 +24,7 @@ Exemplos:
 
 567675 não é palíndromo.
 
-Dado um número natural   n > 10 , verificar se n é palíndrome.
+Dado um número natural   n > 10 , verificar se n é palindrome.
 
 ### Agenda
 Crie uma classe Contato que possui dois atributos: nome e email do tipo String. Crie outra classe, chamada Agenda, que possui um atributo contatos do tipo vetor de Contato. A classe Agenda deve conter um método para adicionar um novo contato em uma posição vazia do vetor, outro método para buscar um contato (retorna uma instância de Contato) através do nome e, por fim, um método para excluir um contato através do nome.
@@ -57,6 +58,29 @@ nota de 1;
 
 - Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
+### Desafio Especial "Matriz"
+Faça com que a função pracaDeVogais(strArr) sendo strArr uma matriz 2D de tamanho 4x4 preenchido com letras do alfabeto, apenas uma letra em cada posição, determine se existe um quadrado 2x2 composto inteiramente de vogais na matriz. Por exemplo: strArr é ["abcd", "eikr", "oufj", "abcd"] então esta matriz será:
+
+a b c d
+
+**e i** k r
+
+**o u** f j
+
+a b c d
+
+Dentro desta matriz há um quadrado de 2x2 vogais começando na segunda linha e primeira coluna, ou seja, ei, ou. Se um quadrado de 2x2 de vogais for encontrado, seu programa deve retornar a posição superior esquerda (linha-coluna) do quadrado, então, para este exemplo, seu programa deve retornar 1-0 (começar contando em ZERO). Se nenhum quadrado de 2x2 de vogais existir, retorne a string não encontrada. Se houver vários quadrados de vogais, retorne aquele que estiver na posição mais superior esquerda da matriz inteira.
+
+Casos de teste de amostra
+
+Entrada: "aqrs", "ukae", "ffoo", "aigh"
+
+Saída: "1-2"
+
+Entrada: "gg", "ff"
+
+Saída: "não encontrado"
+
 ## Avaliação
 Seu projeto será avaliado de acordo com os seguintes critérios. 
 
@@ -64,8 +88,8 @@ Seu projeto será avaliado de acordo com os seguintes critérios.
 2. Cobertura de testes
 3. Você documentou a maneira de configurar o ambiente e rodar sua aplicação na maquina do avaliador
 4. Você seguiu as instruções enviadas
-5. Voce segue as boas práticas de programação e entrega para o Cliente
-6. O código escrito é facil de entender e manter
+5. Você segue as boas práticas de programação e entrega para o Cliente
+6. O código escrito é fácil de entender e manter
 7. Você se preocupa com o uso do aplicativo pelo Usuário
 
-Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto, preocupação com o objetivo da aplicação e do seu uso pelo usuário, suporte e manutenção do código por outros desenvolvdores
+Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto, preocupação com o objetivo da aplicação e do seu uso pelo usuário, suporte e manutenção do código por outros desenvolvedores
