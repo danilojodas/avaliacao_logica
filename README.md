@@ -59,27 +59,58 @@ nota de 1;
 - Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
 ### Desafio Especial "Matriz"
-Faça com que a função pracaDeVogais(strArr) sendo strArr uma matriz 2D de tamanho 4x4 preenchido com letras do alfabeto, apenas uma letra em cada posição, determine se existe um quadrado 2x2 composto inteiramente de vogais na matriz. Por exemplo: strArr é ["abcd", "eikr", "oufj", "abcd"] então esta matriz será:
+Considere a função String[] quadradosDeVogais(String[] strArr) que, dada uma matriz 2D de tamanho arbitrário contendo letras (strArr), retorne todos os quadrados 2x2 formados somente por vogais dentro desta matriz. 
+
+Por exemplo, se strArr for ["abcd", "eikr", "oufj"] a matriz será:
 
 a b c d
 
-**e i** k r
+e i k r
 
-**o u** f j
+o u f j 
+
+E existe só um quadrado 2x2 formando somente por vogais:
+
+e i
+
+o u
+
+A função, neste caso, deve retornar:
+
+["1,0"]
+
+que é o índice do elemento superior esquerdo do quadrado de vogais.
+
+Caso existam vários quadrados de vogais a função deverá retornar todos. Os quadrados de vogais podem se sobrepor, ou seja, dada a matriz:
 
 a b c d
 
-Dentro desta matriz há um quadrado de 2x2 vogais começando na segunda linha e primeira coluna, ou seja, ei, ou. Se um quadrado de 2x2 de vogais for encontrado, seu programa deve retornar a posição superior esquerda (linha-coluna) do quadrado, então, para este exemplo, seu programa deve retornar 1-0 (começar contando em ZERO). Se nenhum quadrado de 2x2 de vogais existir, retorne a string não encontrada. Se houver vários quadrados de vogais, retorne aquele que estiver na posição mais superior esquerda da matriz inteira.
+e i a r
 
-Casos de teste de amostra
+o u e j 
 
-Entrada: "aqrs", "ukae", "ffoo", "aigh"
+Existem 2 quadrados de vogais sobrepostos:
 
-Saída: "1-2"
+e i
 
-Entrada: "gg", "ff"
+o u
 
-Saída: "não encontrado"
+E também:
+
+i a
+
+u e
+
+E a função deve retornar:
+
+["1,0", "1,1"]
+
+
+Considerando o que foi exposto, 
+
+1) Descreva, discursivamente, como resolver o problema.
+2) Implemente a função quadradosDeVogais definida acima.
+3) Faça a análise assíntótica de complexidade da sua solução com relação ao tempo e explique como chegou neste resultado.
 
 ## Avaliação
 Seu projeto será avaliado de acordo com os seguintes critérios. 
